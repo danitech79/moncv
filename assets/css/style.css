@@ -3,6 +3,8 @@
     font-family: "Raleway";
     src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,300&display=swap');
 }
+
+
 h1 {
     font-family: "Lato", sans-serif;
     font-size: 2.5em;
@@ -24,11 +26,12 @@ body {
 h2 {
     font-family: "Lato", sans-serif;
 }
+
 /* bloc haut de page en flex, sur une colonne avec la photo en élément 1*/
+
 header {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: space-between;
     align-content: space-between;
     text-align: center;
@@ -52,7 +55,9 @@ header {
      margin-top: 0px;
      padding: 0px;
 }
-/* bloc d'adresses en grid (le reste sera en flex) */
+
+/* bloc d'adresses en grid (le reste de la page sera en flex) */
+
 #headline  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -80,7 +85,9 @@ a{
     text-decoration: none;
     color: white;
 }
-/* bloc côté côté gauche "à propos" */
+
+/* bloc côté gauche "à propos" */
+
 #bloc-left {
     display: flex;
     flex-direction: column;
@@ -103,7 +110,6 @@ a{
     color: white;
     padding-left: 20px;
     padding-right: 30px;
-    padding-top: 0px;
     padding-bottom: 10px;
     font-size: 0.9em;
     text-indent: 50px;
@@ -122,9 +128,7 @@ a{
 }
 #bloc-4 {
     color: white;
-    padding-left: 0px;
     padding-right: 30px;
-    padding-top: 0px;
     padding-bottom: 10px;
     font-size: 0.9em;
  }
@@ -141,17 +145,19 @@ a{
 }
 #bloc-6 {
     color: white;
-    padding-left: 0px;
     padding-right: 30px;
-    padding-top: 0px;
     padding-bottom: 10px;
     font-size: 0.9em;
 }
+
 /* bloc de séparation colonne flex */
+
 #bloc-separation {
     width: 30px;
 }
+
 /* bloc côté droit partie expériences */
+
 #bloc-right {
     display: flex;
     flex-direction: column;
@@ -214,8 +220,9 @@ a{
 }
 main {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
+
 }
 footer div {
     display: flex;
@@ -223,23 +230,24 @@ footer div {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    align-content: center;
     width: 1160px;
-    padding: 40px 0px;
+    height: 50px;
+    padding: 60px 0px;
+    padding-bottom: 15px;
     background-color: #782221;
     color: white;
 }
 #YT {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
 }
 #LK {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
 }
 #GH {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
 }
 #YT :hover {
     opacity: 0.8;
