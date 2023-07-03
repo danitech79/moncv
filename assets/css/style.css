@@ -58,8 +58,6 @@ header {
 }
 #poste {
      font-size: 1.2em;
-     margin-top: 0px;
-     padding: 0px;
 }
 
 /* bloc d'adresses en grid (le reste de la page sera en flex) */
@@ -185,7 +183,6 @@ a{
     padding-left: 10px;
     padding-right: 30px;
     font-size: 0.9em;
-    margin-top: -10px;
 }
 #bloc-8 h3:hover {
     border-width: 0px 3px 0px 0px;
@@ -206,7 +203,6 @@ a{
 #bloc-10 {
     padding-left: 10px;
     font-size: 0.9em;
-    margin-top: -10px;
 }
 #bloc-11 {
     background-color: #dbc2a4;
@@ -217,12 +213,11 @@ a{
     border-width: 0px 0px 0px 10px;
     border-style: solid;
     border-color: #78222d;
-    margin-top: 0px;
 }
 #bloc-12 {
     color: black;
     font-size: 0.9em;
-    margin-top: -10px;
+    margin-bottom: 20px;
 }
 main {
     display: flex;
@@ -242,9 +237,7 @@ footer div {
     align-items: center;
     justify-content: center;
     width: 1160px;
-    height: 30px;
-    padding: 50px 0px;
-    margin-top: 0px;
+    height: 130px;
     background-color: #782221;
     color: white;
 }
