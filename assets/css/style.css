@@ -31,7 +31,7 @@ h2 {
     font-family: "Lato", sans-serif;
 }
 
-/* bloc haut de page en flex, sur une colonne avec la photo en élément 1*/
+/*bloc haut de page en flex, sur une colonne avec la photo en élément 1*/
 
 header {
     display: flex;
@@ -58,7 +58,7 @@ header {
      font-size: 1.2em;
 }
 
-/* bloc d'adresses en grid (le reste de la page sera en flex) */
+/*bloc d'adresses en grid (le reste de la page sera en flex)*/
 
 #headline  {
     display: grid;
@@ -88,7 +88,7 @@ a{
     color: white;
 }
 
-/* bloc côté gauche "à propos" */
+/*bloc côté gauche "à propos"*/
 
 #bloc-left {
     display: flex;
@@ -152,13 +152,13 @@ a{
     font-size: 0.9em;
 }
 
-/* bloc de séparation colonne flex */
+/*bloc de séparation colonne flex*/
 
 #bloc-separation {
     width: 30px;
 }
 
-/* bloc côté droit partie expériences */
+/*bloc côté droit partie expériences*/
 
 #bloc-right {
     display: flex;
