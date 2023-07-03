@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap');
+
 @font-face {
-    font-family: "Raleway";
-    src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,300&display=swap');
+    font-family: "Raleway",sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,300&display=swap'), format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -22,6 +25,9 @@ body {
         border-width: 0px 2px 0px 0px;
         border-style: solid;
         border-color: black;
+        position: relative;
+        bottom: 0;
+        top: 0;
 }
 h2 {
     font-family: "Lato", sans-serif;
@@ -222,7 +228,12 @@ main {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-
+    position: relative;
+}
+footer {
+    background-color: #782221;
+    position: relative;
+    bottom: 0;
 }
 footer div {
     display: flex;
@@ -231,9 +242,9 @@ footer div {
     align-items: center;
     justify-content: center;
     width: 1160px;
-    height: 50px;
-    padding: 60px 0px;
-    padding-bottom: 15px;
+    height: 30px;
+    padding: 50px 0px;
+    margin-top: 0px;
     background-color: #782221;
     color: white;
 }
@@ -258,5 +269,3 @@ footer div {
 #GH :hover {
     opacity: 0.8;
 }
-
-
